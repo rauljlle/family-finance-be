@@ -1,0 +1,19 @@
+{
+  "name": "family-finance-be",
+  "version": "1.0.0",
+  "description": "Back-end part of the Family Finance project. Its porpouse is to make it easier to manage the finance as a family",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "finance",
+    "management",
+    "family"
+  ],
+  "author": "rauljlle",
+  "license": "ISC",
+  "dependencies": {
+    "jsonwebtoken": "^9.0.2"
+  }
+}
