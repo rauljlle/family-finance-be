@@ -1,10 +1,12 @@
 {
   "name": "family-finance-be",
   "version": "1.0.0",
-  "description": "Back-end part of the Family Finance project. Its porpouse is to make it easier to manage the finance as a family",
-  "main": "index.js",
+  "description": "Back-end part of the Family Finance project. Its purpose is to make it easier to manage the finance as a family",
+  "main": "src/index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node dist/index.js",
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "build": "tsc"
   },
   "keywords": [
     "finance",
